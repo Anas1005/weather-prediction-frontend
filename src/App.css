@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  font-family: "Roboto Flex", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E2EAF4;
+}
+
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+
+.weather-app {
+  background: #E2EAF4;
+  color: #504c4d;
+  padding-inline: 4rem;
+  box-shadow:  9px 9px 64px #acacac,
+             -9px -9px 64px #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: #90A8C8;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  body, html {
+    background: #E2EAF4;
+  }
+
+  .App {
+    margin-block: 4rem;
+    background: #E2EAF4;
+  }
+
+  .weather-app {
+    box-shadow: none;
+  }
+
+  .weather-app-wrapper {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+}

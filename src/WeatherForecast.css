@@ -1,0 +1,21 @@
+.WeatherForecast {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-block: 5rem 2rem;
+}
+
+.max-temp {
+  opacity: 1;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.forecast-day{
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .forecast-daily {
+    padding: 1rem;
+  }
+}
